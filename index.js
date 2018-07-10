@@ -1,5 +1,7 @@
 require('dotenv').config()
 
+console.log('Am I connected?');
+
 const assert = require('assert');
 const express = require('express');
 const cors = require('cors');
